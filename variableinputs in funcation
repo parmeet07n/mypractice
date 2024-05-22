@@ -1,0 +1,17 @@
+def multiply_numbers(*n):
+    product=1
+    for i in n:
+        product=product * i
+    return product
+    
+
+
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
+
+
+result = multiply_numbers(n1,n2,n3)
+
+
+print(result)
